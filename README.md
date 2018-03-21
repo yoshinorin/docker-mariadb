@@ -1,6 +1,6 @@
 # MariaDB docker image
 
-Docker image for Scala.
+Docker image for MariaDB.
 
 # Supported version
 
