@@ -14,5 +14,5 @@ services:
     hostname: mariadb
     ports:
       - "3306:3306"
-    command: mysqld
+    command: ["mysqld", "--character-set-server=utf8mb4"]
     restart: unless-stopped
