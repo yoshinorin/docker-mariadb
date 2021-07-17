@@ -11,6 +11,7 @@ Docker image for MariaDB.
 |10.4.2|Debian|
 |10.4.7|Debian|
 |10.5.4|Ubuntu|
+|10.6.3|Ubuntu|
 
 # Usaga
 
