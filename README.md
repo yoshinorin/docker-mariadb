@@ -17,5 +17,9 @@ Docker image for MariaDB.
 # Usaga
 
 ```sh
+// 10.6.8+
+docker run -it ghcr.io/yoshinorin/docker-mariadb:<version>
+
+// 10.6.3
 docker run -it yoshinorin/docker-mariadb:<version>
 ```
