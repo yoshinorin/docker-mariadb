@@ -1,4 +1,4 @@
-FROM mariadb:10.6.3
+FROM mariadb:10.6.8-focal
 
 RUN apt-get update \
   && apt-get install less vim -y \
