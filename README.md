@@ -14,6 +14,7 @@ Docker image for MariaDB.
 |10.6.3|Ubuntu|
 |10.6.8|Ubuntu(focal)|
 |10.6.10|Ubuntu(focal)|
+|10.11.2|Ubuntu(jammy)|
 
 # Usaga
 
