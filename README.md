@@ -17,6 +17,7 @@ Docker image for MariaDB.
 |10.11.2|Ubuntu(jammy)|
 |10.11.3|Ubuntu(jammy)|
 |10.11.4|Ubuntu(jammy)|
+|10.11.5|Ubuntu(jammy)|
 
 # Usaga
 
