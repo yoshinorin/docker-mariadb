@@ -1,4 +1,4 @@
-FROM mariadb:10.11.6-jammy
+FROM mariadb:10.11.7-jammy
 
 LABEL maintainer="yoshinorin"
 
