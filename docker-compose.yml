@@ -4,10 +4,10 @@ services:
   mariadb:
     build: ./src
     environment:
-      MYSQL_ROOT_PASSWORD: pass
-      MYSQL_USER: mariadb
-      MYSQL_PASSWORD: pass
-      MYSQL_DATABASE: example
+      MARIADB_ROOT_PASSWORD: pass
+      MARIADB_USER: mariadb
+      MARIADB_PASSWORD: pass
+      MARIADB_DATABASE: example
       #TZ: Asia/Tokyo
     volumes:
       - ./data:/var/lib/mysql
@@ -15,5 +15,10 @@ services:
     hostname: mariadb
     ports:
       - "3306:3306"
-    command: ["mysqld", "--character-set-server=utf8mb4"]
+    # NOTE: without upgrade command
+    # command: ["mariadbd", "--character-set-server=utf8mb4"]
+    # NOTE: with upgrade command.
+    command: >
+        mariadbd --character-set-server=utf8mb4 --general_log=1 --general_log_file=/var/log/mysql/general.log &&
+        mariadb-upgrade
     restart: unless-stopped
