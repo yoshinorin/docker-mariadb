@@ -1,4 +1,4 @@
-FROM mariadb:11.4.5-noble
+FROM mariadb:11.4.7-noble
 
 LABEL maintainer="yoshinorin"
 
