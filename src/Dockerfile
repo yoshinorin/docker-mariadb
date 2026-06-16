@@ -1,5 +1,5 @@
-# docker buildx imagetools inspect mariadb:11.8.7-noble
-FROM mariadb:11.8.7-noble@sha256:78185355dd49b54dd6909072531ce8d7e06aa0eccd7aa5b23c93ebb7e34c5aaa
+# docker buildx imagetools inspect mariadb:11.8.8-noble
+FROM mariadb:11.8.8-noble@sha256:be1ef4fe5f14589325c08a41c76334097ce66c86264b75e1d28342c742782a61
 
 LABEL maintainer="yoshinorin"
 
