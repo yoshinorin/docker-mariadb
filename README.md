@@ -29,6 +29,7 @@ Docker image for MariaDB.
 |11.4.9|Ubuntu(noble)|
 |11.8.5|Ubuntu(noble)|
 |11.8.6|Ubuntu(noble)|
+|11.8.7|Ubuntu(noble)|
 
 # Usaga
 
